@@ -1,4 +1,4 @@
-$procs = Get-Content -Path CTempartifacts.json  ConvertFrom-Json
+$procs = Get-Content -Path C:\Temp\artifacts.json  ConvertFrom-Json
 
-$procs  ConvertTo-Csv -Delimiter `t -NoTypeInformation  Out-File CTempartifacts.csv
-& CTempartifacts.csv
+$procs  ConvertTo-Csv -Delimiter `t -NoTypeInformation  Out-File C:\Temp\artifacts.csv
+& C:\Temp\artifacts.csv
